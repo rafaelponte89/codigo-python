@@ -1,7 +1,7 @@
 from zipfile import ZipFile
 from urllib.request import urlopen
 from io import BytesIO
-x=20
+x=25
 
 wordFile = urlopen('http://pythonscraping.com/pages'
                    '/AWordDocument.docx').read()
